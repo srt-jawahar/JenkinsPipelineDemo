@@ -22,5 +22,10 @@ pipeline {
                 echo 'Deploy Successful'
             }
         }
+        stage('Operate') {
+            steps {
+                echo 'GIT successfully'
+            }
+        }
     }
 }
